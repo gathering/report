@@ -1,0 +1,211 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>report</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="mainNav-wrapper">
+      <div class="container">
+        <header class="mainNav-header">
+          <div class="mainNav-header-left">
+            <a href="/tg15/">
+              <img alt="" class="mainNav-header-logo" src="images/tg15_logo.svg">
+              <div class="mainNav-header-meta">
+                <p>Vikingskipet, Hamar<br> 1st–5th of April 2015</p>
+              </div>
+            </a>
+          </div>
+        </header>
+      </div>
+    </div>
+
+<div id="header-carousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" data-interval="8000" role="listbox">
+    <div class="item active">
+      <img src="images/tech-stand.jpg" alt="">
+      <div class="carousel-caption">
+        <h1>The Gathering 2015 had 30 Gbps internet access!</h1>
+        Delivered by<br />
+        <img alt="" class="blix-solutions-logo" src="images/blixsolutions.svg">
+        <img alt="" class="eidsivabredband-logo" src="images/eidsivabredband.svg">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/hyperion-stand.jpg" alt="">
+      <div class="carousel-caption">
+        <h1>Attendees at The Gathering 2015<br />used up 20 000 plastic beads!</h1><br /><br /><br />
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/opening-show.jpg" alt="">
+      <div class="carousel-caption">
+        <h1>Never have so many people<br />attended the opening show!</h1><br /><br /><br />
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#header-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#header-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-4">
+          <h3>Meet the new kids on the block!</h3>
+          <p>The Gathering is absolutely dependent on the crew behind it. In 2015 we reached a total of 415 member, 134 of them newcomers, all gathered to build the best event yet.</p><br /><br />
+          <div class="graph_container" id="graph_crew_members">
+            <div class="graph_header">Newcomers vs Recurring Crew</div>
+            <div class="labels"></div>
+            <canvas />
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <h3>Ladies and gentleman…</h3>
+          <p>Back in '97 The Gathering actually gave away free tickets to girls, reason being that <br />there were so few. As you can see we're a lot more girls at The Gathering now.</p><br /><br /><br /><br />
+          <div class="graph_container col-lg-6" id="graph_crew_gender">
+            <div class="graph_header">Crew gender</div>
+            <div class="labels"></div>
+            <canvas />
+          </div>
+          <div class="graph_container col-lg-6" id="graph_attendee_gender">
+            <div class="graph_header">Attendee gender</div>
+            <div class="labels"></div>
+            <canvas />
+          </div>          
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-7">
+          <h3>Average age: 19 years…</h3>
+          <p>The Gathering 2015 had over 5 500 attendees ranging from 0 to 60 years old.<br />Yes, we had infants at The Gathering 2015.</p><br /><br />
+          <div class="graph_container" id="graph_attendee_age">
+            <div class="graph_header">Age Breakdown</div>
+            <div class="labels"></div>
+            <canvas />
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="row">
+            <div class="col-lg-7">
+              <h3>Crew Coffee Counter</h3>
+              <p>In 2014 the crew catering introduced «SwagWagon», that also was highly upgraded in 2015. The service of this wagon included coffee, tea and snacks free for the crew. That also ment the crew drank much more coffee than before.</p>
+            </div>
+            <div class="col-lg-5">
+              <div class="fa-circle" style="margin-top: 30px;">
+                <div class="content">
+                  <i class="fa fa-coffee"></i><br />
+                  over 15 000<br />
+                  <span>cups</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br /><br />
+          <div class="row">
+             <div class="col-lg-7">
+              <h3>Beware of the walkers</h3>
+              <p>We gathered pedometer data from 58 crewmembers. That gave us some insight on how much our crew actually walks. There are 12 500 squaremeters of areal in Vikingskipet, and still the number of steps our crew have walked are amazingly high.</p>
+            </div>
+            <div class="col-lg-5">
+              <div class="fa-circle" style="margin-top: 30px;">
+                <div class="content">
+                  <i class="fa fa-trophy"></i><br />
+                  40 million<br />
+                  <span>approximately</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="graph_container" id="graph_crew_amount">
+            <div class="graph_header">How many crew are there?</div>
+            <div class="labels"></div>
+            <canvas />
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>♥ from the Yeoman team</p>
+      </div>
+    </div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+        <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+        <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+        <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+        <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+        <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+        <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+        <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+        <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+        <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+        <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+        <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+        <script src="/bower_components/Chart.js/Chart.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.data.js"></script>
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

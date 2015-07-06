@@ -1,0 +1,263 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "_bootstrap.scss";
+// endbower
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.fa-circle {
+  width: 175px;
+  height: 175px;
+  background-color: $brand-primary;
+  border-radius: 150px;
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  .content {
+    span {
+      font-size: 12px;
+      margin-top: -50px;
+    }
+  }
+  .fa {
+    font-size: 48px;
+  }
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.graph_container {
+  margin-bottom: 20px;
+  text-align: center;
+  .graph_header {
+    color: #a9a9a9;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .labels { margin-bottom: 20px; }
+}
+
+#header-carousel {
+  height: 400px;
+  .item {
+    height: 400px;
+    overflow: hidden;
+
+    h1 {
+      margin-bottom: 50px;
+    }
+
+    .blix-solutions-logo {
+      width: 100%;
+      max-width: 100px;
+      display: inline-block;
+    }
+    .eidsivabredband-logo {
+      margin-top: 20px;
+      margin-left: 10px;
+      width: 100%;
+      max-width: 100px;
+      display: inline-block;
+    }
+
+    > img {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+  }
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+.mainNav-wrapper {
+    background-color: #293f6d;
+    .mainNav-header, .mainNav-header-right, .mainNav-header-left, .mainNav-header-logo {
+      height: 110px
+  }
+
+  .mainNav-header {
+      background: #293f6d;
+      position: relative
+  }
+
+  .mainNav-header-logo {
+      max-width: 400px;
+      width: 100%
+  }
+
+  @media(max-width:380px) {
+      .mainNav-header-logo {
+          margin-top: -20px
+      }
+  }
+
+  .mainNav-header-left {
+      width: auto;
+      overflow: hidden
+  }
+
+  .mainNav-header-right {
+      float: right;
+      width: 135px
+  }
+
+  .mainNav-header-meta {
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 410px;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      font-size: 1.4rem
+  }
+
+  .mainNav-container {
+      position: relative;
+      background: #202040;
+      overflow: hidden
+  }
+
+  .mainNav-top {
+      border-bottom: 1px solid #fff;
+      padding: 25px 0
+  }
+
+  .mainNav-top ul {
+      list-style: none;
+      margin: 0;
+      padding: 0
+  }
+
+  .mainNav-top a {
+      height: 165px;
+      background: #fff;
+      text-align: center;
+      display: block;
+      position: relative
+  }
+
+  .mainNav-top i {
+      font-size: 7rem;
+      margin-top: 25px
+  }
+
+  .mainNav-top p {
+      margin-top: 10px;
+      line-height: 1.2;
+      font-weight: 700;
+      font-size: 1.96rem
+  }
+
+  .mainNav-bottom {
+      padding: 25px 0
+  }
+
+  .mainNav-bottom ul {
+      list-style: none;
+      padding: 0
+  }
+
+  .mainNav-bottom ul.pages {
+      columns: 4;
+      -webkit-columns: 4;
+      -moz-columns: 4
+  }
+
+  .mainNav-bottom li.pages {
+      line-height: 37px
+  }
+
+  .mainNav-bottom a, .mainNav-bottom a:visited {
+      color: #fff;
+      font-size: 1.6rem
+  }
+
+  .mainNav-bottom a:hover {
+      color: #81baeb
+  }
+
+  .mainNav-meta input {
+      margin-bottom: 10px
+  }
+
+  .mainNav-meta-top {
+      display: mainNav-container
+  }
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+  p + h4 {
+    margin-top: 28px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
